@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Fibonacci
 {
+    // ReSharper disable once ClassNeverInstantiated.Global
     class Program
     {
         static IEnumerable<int> Fibonacci()
@@ -16,6 +17,7 @@ namespace Fibonacci
                 current = next;
                 next += oldCurrent;
             }
+            // ReSharper disable once IteratorNeverReturns
         }
 
         static void Main()
