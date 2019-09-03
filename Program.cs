@@ -14,7 +14,7 @@ namespace Fibonacci
                 yield return current;
                 int oldCurrent = current;
                 current = next;
-                next = next + oldCurrent;
+                next += oldCurrent;
             }
         }
 
