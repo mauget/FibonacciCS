@@ -1,0 +1,7 @@
+bin/
+obj/
+/packages/
+.idea/.gitignore
+.idea/.idea.Fibonacci/.idea/contentModel.xml
+.idea/.idea.Fibonacci/.idea/modules.xml
+.idea/.idea.Fibonacci/riderModule.iml
