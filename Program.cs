@@ -25,7 +25,7 @@ namespace Fibonacci
             foreach (var value in Fibonacci())
             {
                 Console.WriteLine(value);
-                if (value > 2000)
+                if (value > 90000000)
                 {
                     break;
                 }
